@@ -16,7 +16,7 @@ router.post('/', async function (req, res, next) {
   var comentarios = req.body.comentarios;
 
   var obj = {
-    to: 'leandrovaldez99@yahoo.com.ar',
+    to: 'damianbarzolaweb@gmail.com',
     subject: 'contacto desde la pagina web',
     html: nombre + ", tel: " + tel + " , se contacto a traves de la web y dejo el siguiente mensaje: " + comentarios + "."
   }
